@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://2b0dbly2t36u"]
+
+[ext_resource type="Script" uid="uid://kscsindvaf5w" path="res://scripts/UI/start.gd" id="1_ots34"]
+
+[node name="start" type="MarginContainer" unique_id=1859055142]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 120
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 120
+theme_override_constants/margin_bottom = 80
+script = ExtResource("1_ots34")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1327697901]
+layout_mode = 2
+
+[node name="TextureRect2" type="TextureRect" parent="." unique_id=703062308]
+layout_mode = 2
+
+[node name="TextureRect3" type="TextureRect" parent="." unique_id=267125439]
+layout_mode = 2
+
+[node name="TextureRect4" type="TextureRect" parent="." unique_id=804188900]
+layout_mode = 2
+
+[node name="TextureRect5" type="TextureRect" parent="." unique_id=1095018407]
+layout_mode = 2
